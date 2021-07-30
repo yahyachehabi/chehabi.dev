@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        body: ['Merriweather'],
-        titre:['nonito1']
+        body: ['Nunito'],
         
     },
     },
