@@ -73,38 +73,38 @@
       </div>
       <!-- end Games -->
     </div>
-    <!-- Contact -->
-    <div class="bg-secondary-300 py-20">
-      <div class="container">
-        <h1 class="title text-center">Contacter Moi</h1>
-        <h2 class="text-2xl pt-12 text-secandery-100">Vous avez une ideé d'un projet'?</h2>
-        <p class="text-xl pt-4 text-gray-400">Contactez moi pour vous aidez</p>
-        <form name="contact" method="POST" data-netlify="true">
-          <div class="flex justify-between my-10">
-            <div class="grid grid-cols-2 gap-4 w-3/4">
-              <label for="full-name" class="sr-only">Nom et prénom</label>
-              <input id="full-name" class="border-gray-400 border-2 rounded-md " placeholder="Nom et prénom" type="text">
+     <!-- Contact -->
+     <div class="bg-secondary-300 py-20">
+       <div class="container">
+         <h1 class="title text-center">Contacter Moi</h1>
+         <h2 class="text-2xl pt-12 text-secandery-100">Vous avez une ideé d'un projet'?</h2>
+         <p class="text-xl pt-4 text-gray-400">Contactez moi pour vous aidez</p>
+         <form name="contact" method="POST" data-netlify="true">
+           <div class="flex justify-between my-10">
+             <div class="grid grid-cols-2 gap-4 w-3/4">
+               <label for="full-name" class="sr-only">Nom et prénom</label>
+               <input id="full-name" name="full-name" class="border-gray-400 border-2 rounded-md" placeholder="Nom et prénom" type="text">
 
-              <label for="email" class="sr-only">Email</label>
-              <input id="email" class="border-gray-400 border-2 rounded-md p-2" placeholder="Email" type="email">
+               <label for="email" class="sr-only">Email</label>
+               <input id="email" name="email" class="border-gray-400 border-2 rounded-md p-2" placeholder="Email" type="email">
 
-              <label for="subject" class="sr-only">Objet</label>
-              <input id="subject" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Objet" type="text">
+               <label for="subject" class="sr-only">Objet</label>
+               <input id="subject" name="subject" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Objet" type="text">
 
-              <label for="message" class="sr-only">Message</label>
-              <textarea id="message" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Message"></textarea>
-            </div>
-            <div class="w-1/4 flex flex-col justify-between items-center">
-              <img class="h-30 transform rotate-10" src="assets/img/email.svg" alt="">
-              <button class="text-white font-semibold text-xl bg-primary px-8 py-4 rounded transition duration-300 hover:bg-opacity-10 hover:text-primary border border-primary">
-                Envoyer
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <!-- end Contact -->
+               <label for="message" class="sr-only">Message</label>
+               <textarea id="message" name="message" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Message"></textarea>
+             </div>
+             <div class="w-1/4 flex flex-col justify-between items-center">
+               <img class="h-30 transform rotate-10" src="assets/img/email.svg" alt="Email">
+               <button class="text-white font-semibold text-xl bg-primary px-8 py-4 rounded transition duration-300 hover:bg-opacity-10 hover:text-primary border border-primary">
+                 Envoyer
+               </button>
+             </div>
+           </div>
+         </form>
+       </div>
+     </div>
+     <!-- end Contact -->
 
     <script type="module" src="/assets/js/main.js"></script>
   </body>
