@@ -85,16 +85,16 @@
           <div class="flex justify-between my-10">
             <div class="grid grid-cols-2 gap-4 w-3/4">
               <label for="full-name" class="sr-only">Nom et prénom</label>
-              <input id="full-name" name="full-name" class="border-gray-400 border-2 rounded-md" placeholder="Nom et prénom" type="text">
+              <input id="full-name" required name="full-name" class="border-gray-400 border-2 rounded-md" placeholder="Nom et prénom" type="text">
 
               <label for="email" class="sr-only">Email</label>
-              <input id="email" name="email" class="border-gray-400 border-2 rounded-md p-2" placeholder="Email" type="email">
+              <input id="email" name="email" required class="border-gray-400 border-2 rounded-md p-2" placeholder="Email" type="email">
 
               <label for="subject" class="sr-only">Objet</label>
-              <input id="subject" name="subject" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Objet" type="text">
+              <input id="subject" name="subject" required class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Objet" type="text">
 
               <label for="message" class="sr-only">Message</label>
-              <textarea id="message" name="message" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Message"></textarea>
+              <textarea id="message" required name="message" class="border-gray-400 border-2 rounded-md p-2 col-span-2" placeholder="Message"></textarea>
             </div>
             <div class="w-1/4 flex flex-col justify-between items-center">
               <dir class="transform rotate-15">
