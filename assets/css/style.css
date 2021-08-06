@@ -1,1 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.title {
+    @apply text-4xl font-fredoka text-secondary-100;
+}
