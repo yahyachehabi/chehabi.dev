@@ -1,6 +1,9 @@
-import { defineConfig } from 'vite-plugin-windicss'
+import {
+  defineConfig
+} from 'vite-plugin-windicss'
 import typographyPlugin from 'windicss/plugin/typography'
 import formsPlugin from 'windicss/plugin/forms'
+import colors from 'windicss/colors'
 
 export default defineConfig({
   attributify: true,
@@ -19,24 +22,35 @@ export default defineConfig({
       fredoka: ['Fredoka One']
     },
     container: {
-       center: true,
-       padding: {
-         'DEFAULT': '1rem',
-         'sm': '2rem',
-         'md': '4rem',
-         'lg': '8rem',
-         'xl': '10rem',
-         '2xl': '12rem',
-       },
-     },
+      center: true,
+      padding: {
+        'DEFAULT': '1rem',
+        'sm': '2rem',
+        'md': '4rem',
+        'lg': '8rem',
+        'xl': '10rem',
+        '2xl': '12rem',
+      },
+    },
     extend: {
       colors: {
-        primary: '#4453C1',
+        primary: {
+          DEFAULT: '#5A54FF',
+          focus: '#4B369D',
+        },
         secondary: {
-          100: '#5C5D67',
-          200: '#3E3E49',
-          300: '#DDDEE2',
-        }
+          DEFAULT: '#F44E4E',
+          focus: '#D7384E',
+        },
+        accent: {
+          DEFAULT: '#FDC510',
+          focus: '#F3AA02',
+        },
+        neutral: {
+          DEFAULT: '#E3E5FC',
+          focus: '#A7ADFF',   
+        },
+        base: colors.coolGray
       }
     },
   },
