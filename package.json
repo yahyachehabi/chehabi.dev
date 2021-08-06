@@ -1,47 +1,25 @@
 {
-  "name": "yahya-chehabi",
-  "version": "1.2.0",
-  "description": "My personal website",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "browser-sync": "^2.27.4",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-purgecss": "^3.1.3",
-    "gulp-replace": "^1.1.3",
-    "gulp-terser": "^2.0.1",
-    "gulp-webp": "^4.0.1",
-    "log-symbols": "^4.1.0"
+  "name": "vite-wind-boilerplate",
+  "description": "Windi CSS boilerplate with vitejs speed",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Adil Chehabi",
+    "url": "http://chehabi.me"
   },
   "scripts": {
-    "dev": "gulp",
-    "build": "gulp prod",
-    "prod": "gulp prod"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yayhachehabi"
+  "devDependencies": {
+    "@windicss/plugin-icons": "^1.0.2",
+    "vite": "^2.3.8",
+    "vite-plugin-icons": "^0.6.5",
+    "path": "^0.12.7",
+    "vite-plugin-windicss": "^1.0.4",
+    "windicss": "^3.1.3"
   },
-  "keywords": [
-    "gulp",
-    "gulp4",
-    "tailwind",
-    "tailwindcss",
-    "sass"
-  ],
-  "author": "Manjunath G",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manjumjn/gulp-with-tailwindcss/issues"
-  },
-  "homepage": "https://github.com/manjumjn/gulp-with-tailwindcss#readme"
+  "dependencies": {
+  }
 }
