@@ -18,7 +18,7 @@ export default {
         // Add every html file respecting folder structure of your app
         index: resolve(__dirname ,'index.html'),
         indexEn: resolve(__dirname ,'index-en.html'),
-        // second: resolve(__dirname, 'second.html'),
+        thankYou: resolve(__dirname, 'thank-you.html'),
         // third: resolve(__dirname, 'third.html'),
         // fourth: resolve(__dirname, 'nested/fourth.html')
 
