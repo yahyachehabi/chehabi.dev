@@ -7,6 +7,10 @@ specifiers:
   vite-plugin-icons: ^0.6.5
   vite-plugin-windicss: ^1.0.4
   windicss: ^3.1.3
+  zero-md: ^2.2.0
+
+dependencies:
+  zero-md: 2.2.0
 
 devDependencies:
   '@windicss/plugin-icons': 1.0.2
@@ -392,3 +396,7 @@ packages:
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
+
+  /zero-md/2.2.0:
+    resolution: {integrity: sha512-Y3G7K/8UY9HtxVcYss3axUMCPlEsP/jf/8UkRgpfzelV6x+cOkLDOT0R4x0YHYSkFyOB7h7Uy/42PMZHXag+cw==}
+    dev: false

@@ -20,7 +20,8 @@ export default {
         indexEn: resolve(__dirname ,'index-en.html'),
         message: resolve(__dirname, 'merci.html'),
         messageEn: resolve(__dirname, 'thankyou.html'),
-        // test: resolve(__dirname, 'projects/html/test.html'),
+        test: resolve(__dirname, 'projects/test.html'),
+        projet1: resolve(__dirname, 'projects/html/projet-1.html'),
         // third: resolve(__dirname, 'third.html'),
         // fourth: resolve(__dirname, 'nested/fourth.html')
 
