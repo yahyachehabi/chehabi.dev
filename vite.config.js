@@ -22,6 +22,7 @@ export default {
         messageEn: resolve(__dirname, 'thankyou.html'),
         test: resolve(__dirname, 'projects/test.html'),
         projet1: resolve(__dirname, 'projects/html/projet-1.html'),
+        projet1Md: resolve(__dirname, 'projects/html/projet-1.md'),
         // third: resolve(__dirname, 'third.html'),
         // fourth: resolve(__dirname, 'nested/fourth.html')
 
